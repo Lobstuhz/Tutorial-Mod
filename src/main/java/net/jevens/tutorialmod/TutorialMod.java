@@ -40,6 +40,7 @@ public class TutorialMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.XYLITE);
+            event.accept(ModItems.PHILOSOPHERS_STONE);
         }
     }
 

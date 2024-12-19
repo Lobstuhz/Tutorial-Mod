@@ -17,4 +17,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> XYLITE = ITEMS.register("xylite",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PHILOSOPHERS_STONE = ITEMS.register(
+            "philosophers_stone",
+            () -> new Item(new Item.Properties()));
+
 }
