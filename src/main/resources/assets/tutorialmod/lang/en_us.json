@@ -1,4 +1,6 @@
 {
+  "creativetab.tutorial_tab": "Tutorial Mod",
+  "item.tutorialmod.philosophers_stone": "Philosopher's Stone",
   "item.tutorialmod.xylite": "Xylite",
-  "item.tutorialmod.philosophers_stone": "Philosopher's Stone"
+  "block.tutorialmod.xylite_block": "Block of Xylite"
 }
