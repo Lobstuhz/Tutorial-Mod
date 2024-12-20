@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                                 output.accept(ModItems.XYLITE.get());
                                 output.accept(ModItems.PHILOSOPHERS_STONE.get());
                                 output.accept(ModBlocks.XYLITE_BLOCK.get());
+                                output.accept(ModBlocks.XYLITE_ORE.get());
                             })
                             .build());
 

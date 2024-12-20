@@ -40,11 +40,17 @@ public class TutorialMod {
 
     }
 
-    // Add the example block item to the building blocks tab
+    // Add custom items, blocks, etc. to their respective creative mode tabs
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.XYLITE);
             event.accept(ModItems.PHILOSOPHERS_STONE);
+        }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.XYLITE_BLOCK);
+        }
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.XYLITE_ORE);
         }
     }
 
