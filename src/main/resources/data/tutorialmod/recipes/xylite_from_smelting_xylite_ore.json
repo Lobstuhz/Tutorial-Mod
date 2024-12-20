@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "xylite",
+  "ingredient": {
+    "item": "tutorialmod:xylite_ore"
+  },
+  "result": {
+    "id": "tutorialmod:xylite"
+  }
+}

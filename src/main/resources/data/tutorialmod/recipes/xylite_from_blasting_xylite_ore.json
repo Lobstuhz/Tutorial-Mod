@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "xylite",
+  "ingredient": {
+    "item": "tutorialmod:xylite_ore"
+  },
+  "result": {
+    "id": "tutorialmod:xylite"
+  }
+}

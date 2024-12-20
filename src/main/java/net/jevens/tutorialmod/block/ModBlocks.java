@@ -18,9 +18,10 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, TutorialMod.MOD_ID);
+
     // Xylite Block
     public static final RegistryObject<Block> XYLITE_BLOCK = registerBlock("xylite_block",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK).sound(SoundType.ANVIL)));
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
     // Xylite Ore
     public static final RegistryObject<Block> XYLITE_ORE = registerBlock("xylite_ore",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE)));
